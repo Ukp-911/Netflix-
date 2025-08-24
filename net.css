@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+header {
+    /* border: 2px solid rgb(68, 231, 24); */
+    height: 750px;
+    width: 100%;
+    display: flow-root;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/05e91faa-6f6d-4325-934e-5418dcc2567b/web/IN-en-20250630-TRIFECTA-perspective_159086b1-425f-435b-bcd5-1ed8039cdef9_large.jpg");
+    background-color: rgb(34, 33, 33);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-blend-mode: overlay;
+}
+
+svg {
+    height: 100%;
+    width: auto;
+}
+
+.svgl {
+    height: 100%;
+    width: 23px;
+}
+
+svg path {
+    fill: red;
+}
+
+nav {
+    margin-top: 25px;
+    color: aliceblue;
+    height: 45px;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-around;
+    gap: 27%;
+}
+
+.navright {
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.navright>p {
+    /* border: 2px solid white; */
+    background-color: red;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+
+.lang {
+    border: 1px solid rgb(112, 112, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background-color: rgb(20, 19, 19);
+    padding-left: 22px;
+    padding-right: 9px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+section {
+    /* border: 2px solid white; */
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 2px solid white; */
+    width: 40%;
+    height: 160px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    /* flex-grow: 1; */
+}
+
+.second {
+    /* border: 2px solid white; */
+    height: 80px;
+    width: 40%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secp {
+    font-size: 15px;
+}
+
+.third {
+    /* border: 2px solid white; */
+    height: 150px;
+    width: 40%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 8px;
+}
+
+.form {
+    border-radius: 5px;
+    border: 2px solid white;
+    padding-right: 110px;
+    padding-bottom: 17px;
+    padding-top: 13px;
+    padding-left: 17px;
+    background-color: rgb(23, 23, 23);
+    opacity: 0.4;
+    height: 53.2px;
+    width: 370px;
+    color: white;
+    font-size: 20px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 15px;
+}
+
+.next {
+    /* border: 2px solid white; */
+    border-radius: 5px;
+    color: white;
+    height: 52px;
+    width: 190px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    font-family: math;
+}
+
+.svgn {
+    height: 25px;
+    position: relative;
+    bottom: 2px;
+}
+
+.svgn path {
+    fill: white;
+}
+
+.middle{
+    /* border: 2px solid white; */
+    color: white;
+    font-family:'Poppins';
+}
+
+.trend{
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 900;
+    width: 200px;
+    margin-left: 120px;
+}
+.series{
+    /* border: 2px solid white; */
+    height: 250px;
+    width: 1200px;
+    margin-left: 140px;
+    margin-top: 23px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.seimg{
+    position:relative;
+}
+.seimg img{
+    height: 248px;
+    width: 178px;
+    border-radius: 6px;
+}
+.seimg svg{
+    background-color: black;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: -25px;
+    bottom: 20px;
+}
+.seimg svg path{
+    fill: white;
+}
